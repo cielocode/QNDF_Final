@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(252, 242, 186);
+}
+
+.noticia {
+  width: 41rem;
+  height: 13rem;
+}
+
+.noticia:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  transition: all 0.7s linear;
+}
+
+.noticia-title {
+  width: 30rem;
+  font-size: 1.1rem;
+  padding: 0.4rem 1.9rem;
+  position: relative;
+  bottom: 15rem;
+  left: 13rem;
+}
+
+.noticia-body {
+  padding: 3rem 0 !important;
+}
+
+.noticia-text {
+  width: 29rem;
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+  position: relative;
+  bottom: 16rem;
+  left: 13.5rem;
+}
+
+.container-fluid .row {
+  padding-top: 20rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.noticia-img-top {
+  padding: 2rem;
+  height: 13rem;
+  position: relative;
+  right: 13rem;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.noticia-img-top:hover {
+  transform: scale(1.13);
+}
